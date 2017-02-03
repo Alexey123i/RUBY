@@ -1,0 +1,13 @@
+puts "Введите ваше имя"
+name=gets.chomp
+
+puts "Введите свой рост"
+height=gets.chomp
+
+ideal_weight=Integer(height)-110
+
+puts "#{name}, Bаш идеальный вес #{ideal_weight}"
+
+if ideal_weight<0
+	puts "Ваш вес уже оптимальный"
+	end
